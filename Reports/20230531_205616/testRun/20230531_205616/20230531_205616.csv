@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testRun,Chrome 113.0.0.0,,,2023-05-31 20:56:19,2023-05-31 20:57:10,50.464s,PASSED
+,,,,,,,
+Test Cases/addChart,Chrome 113.0.0.0,,,2023-05-31 20:56:20,2023-05-31 20:56:42,22.184s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-31 20:56:20,2023-05-31 20:56:23,2.851s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 113.0.0.0,,,2023-05-31 20:56:23,2023-05-31 20:56:26,2.939s,PASSED
+"click(findTestObject(""Object Repository/addChart/Page_Home Page/a_Sign In""))",Chrome 113.0.0.0,,,2023-05-31 20:56:26,2023-05-31 20:56:29,3.622s,PASSED
+"setText(findTestObject(""Object Repository/addChart/Page_Customer Login/input_Email_loginusername""), ""amangunsong@gmail.com"")",Chrome 113.0.0.0,,,2023-05-31 20:56:29,2023-05-31 20:56:31,1.193s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addChart/Page_Customer Login/input_Password_loginpassword""), ""15nYBuI/zUaiDJSLaKisBw=="")",Chrome 113.0.0.0,,,2023-05-31 20:56:31,2023-05-31 20:56:31,0.469s,PASSED
+"click(findTestObject(""Object Repository/addChart/Page_Customer Login/span_Sign In""))",Chrome 113.0.0.0,,,2023-05-31 20:56:31,2023-05-31 20:56:33,2.116s,PASSED
+"click(findTestObject(""Object Repository/addChart/Page_Home Page/img_Add to Compare_product-image-photo""))",Chrome 113.0.0.0,,,2023-05-31 20:56:33,2023-05-31 20:56:37,4.118s,PASSED
+"click(findTestObject(""Object Repository/addChart/Page_Argus All-Weather Tank/div_XS""))",Chrome 113.0.0.0,,,2023-05-31 20:56:37,2023-05-31 20:56:39,1.438s,PASSED
+"click(findTestObject(""Object Repository/addChart/Page_Argus All-Weather Tank/div_Color_option-label-color-93-item-52""))",Chrome 113.0.0.0,,,2023-05-31 20:56:39,2023-05-31 20:56:39,0.703s,PASSED
+"setText(findTestObject(""Object Repository/addChart/Page_Argus All-Weather Tank/input_Qty_qty""), ""1"")",Chrome 113.0.0.0,,,2023-05-31 20:56:39,2023-05-31 20:56:40,0.909s,PASSED
+"click(findTestObject(""Object Repository/addChart/Page_Argus All-Weather Tank/span_Add to Cart""))",Chrome 113.0.0.0,,,2023-05-31 20:56:40,2023-05-31 20:56:41,0.415s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-31 20:56:41,2023-05-31 20:56:42,0.896s,PASSED
+,,,,,,,
+Test Cases/checkout,Chrome 113.0.0.0,,,2023-05-31 20:56:42,2023-05-31 20:57:10,27.941s,PASSED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-31 20:56:42,2023-05-31 20:56:47,5.066s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 113.0.0.0,,,2023-05-31 20:56:47,2023-05-31 20:56:50,2.431s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Home Page/a_Sign In""))",Chrome 113.0.0.0,,,2023-05-31 20:56:50,2023-05-31 20:56:53,3.331s,PASSED
+"setText(findTestObject(""Object Repository/checout/Page_Customer Login/input_Email_loginusername""), ""amangunsong@gmail.com"")",Chrome 113.0.0.0,,,2023-05-31 20:56:53,2023-05-31 20:56:54,1.130s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/checout/Page_Customer Login/input_Password_loginpassword""), ""15nYBuI/zUaiDJSLaKisBw=="")",Chrome 113.0.0.0,,,2023-05-31 20:56:54,2023-05-31 20:56:54,0.446s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Customer Login/span_Sign In""))",Chrome 113.0.0.0,,,2023-05-31 20:56:54,2023-05-31 20:56:57,2.167s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Home Page/a_My Cart11items""))",Chrome 113.0.0.0,,,2023-05-31 20:56:57,2023-05-31 20:57:00,3.432s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Home Page/button_Proceed to Checkout""))",Chrome 113.0.0.0,,,2023-05-31 20:57:00,2023-05-31 20:57:02,1.770s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Checkout/div_andreas     mangunsong     jalan jalan _f8e74a""))",Chrome 113.0.0.0,,,2023-05-31 20:57:02,2023-05-31 20:57:05,3.408s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Checkout/span_Next""))",Chrome 113.0.0.0,,,2023-05-31 20:57:05,2023-05-31 20:57:06,0.564s,PASSED
+"click(findTestObject(""Object Repository/checout/Page_Checkout/span_Place Order""))",Chrome 113.0.0.0,,,2023-05-31 20:57:06,2023-05-31 20:57:09,3.138s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-31 20:57:09,2023-05-31 20:57:10,0.720s,PASSED

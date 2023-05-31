@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testRun" time="50.464" tests="2" failures="0" errors="0">
+   <testsuite name="testRun" tests="2" failures="0" errors="0" time="50.464" skipped="0" timestamp="2023-05-31 20:56:19" hostname="andre - Andreas" id="Test Suites/testRun">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\andre\\Downloads\\binar\\test katalon\\latihanKatalon\\Reports\\20230531_205616\\testRun\\20230531_205616"/>
+         <property name="logFiles" value="C:\\Users\\andre\\Downloads\\binar\\test katalon\\latihanKatalon\\Reports\\20230531_205616\\testRun\\20230531_205616\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="andre - Andreas"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.8"/>
+         <property name="sessionId" value="54fb96fd991ccf151fb861f7618ce43a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/addChart" time="22.184" classname="Test Cases/addChart" status="PASSED">
+         <system-out><![CDATA[2023-05-31 20:56:20 - [TEST_CASE][PASSED] - Test Cases/addChart: Test Cases/addChart
+
+2023-05-31 20:56:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 20:56:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 20:56:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 20:56:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 20:56:23 - [TEST_STEP][PASSED] - navigateToUrl("https://magento.softwaretestingboard.com/"): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+2023-05-31 20:56:26 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+2023-05-31 20:56:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addChart/Page_Home Page/a_Sign In")): Object: 'Object Repository/addChart/Page_Home Page/a_Sign In' is clicked on
+
+2023-05-31 20:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/addChart/Page_Home Page/a_Sign In' is clicked on
+
+2023-05-31 20:56:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addChart/Page_Customer Login/input_Email_loginusername"), "amangunsong@gmail.com"): Text 'amangunsong@gmail.com' is set on object 'Object Repository/addChart/Page_Customer Login/input_Email_loginusername'
+
+2023-05-31 20:56:31 - [MESSAGE][PASSED] - Text 'amangunsong@gmail.com' is set on object 'Object Repository/addChart/Page_Customer Login/input_Email_loginusername'
+
+2023-05-31 20:56:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addChart/Page_Customer Login/input_Password_loginpassword"), "15nYBuI/zUaiDJSLaKisBw=="): Text ****** has been set on object 'Object Repository/addChart/Page_Customer Login/input_Password_loginpassword'
+
+2023-05-31 20:56:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addChart/Page_Customer Login/input_Password_loginpassword'
+
+2023-05-31 20:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addChart/Page_Customer Login/span_Sign In")): Object: 'Object Repository/addChart/Page_Customer Login/span_Sign In' is clicked on
+
+2023-05-31 20:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/addChart/Page_Customer Login/span_Sign In' is clicked on
+
+2023-05-31 20:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addChart/Page_Home Page/img_Add to Compare_product-image-photo")): Object: 'Object Repository/addChart/Page_Home Page/img_Add to Compare_product-image-photo' is clicked on
+
+2023-05-31 20:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/addChart/Page_Home Page/img_Add to Compare_product-image-photo' is clicked on
+
+2023-05-31 20:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addChart/Page_Argus All-Weather Tank/div_XS")): Object: 'Object Repository/addChart/Page_Argus All-Weather Tank/div_XS' is clicked on
+
+2023-05-31 20:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/addChart/Page_Argus All-Weather Tank/div_XS' is clicked on
+
+2023-05-31 20:56:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addChart/Page_Argus All-Weather Tank/div_Color_option-label-color-93-item-52")): Object: 'Object Repository/addChart/Page_Argus All-Weather Tank/div_Color_option-label-color-93-item-52' is clicked on
+
+2023-05-31 20:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/addChart/Page_Argus All-Weather Tank/div_Color_option-label-color-93-item-52' is clicked on
+
+2023-05-31 20:56:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addChart/Page_Argus All-Weather Tank/input_Qty_qty"), "1"): Text '1' is set on object 'Object Repository/addChart/Page_Argus All-Weather Tank/input_Qty_qty'
+
+2023-05-31 20:56:40 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/addChart/Page_Argus All-Weather Tank/input_Qty_qty'
+
+2023-05-31 20:56:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addChart/Page_Argus All-Weather Tank/span_Add to Cart")): Object: 'Object Repository/addChart/Page_Argus All-Weather Tank/span_Add to Cart' is clicked on
+
+2023-05-31 20:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/addChart/Page_Argus All-Weather Tank/span_Add to Cart' is clicked on
+
+2023-05-31 20:56:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 20:56:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/checkout" time="27.941" classname="Test Cases/checkout" status="PASSED">
+         <system-out><![CDATA[2023-05-31 20:56:42 - [TEST_CASE][PASSED] - Test Cases/checkout: Test Cases/checkout
+
+2023-05-31 20:56:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-31 20:56:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-31 20:56:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-31 20:56:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-31 20:56:47 - [TEST_STEP][PASSED] - navigateToUrl("https://magento.softwaretestingboard.com/"): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+2023-05-31 20:56:50 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+2023-05-31 20:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Home Page/a_Sign In")): Object: 'Object Repository/checout/Page_Home Page/a_Sign In' is clicked on
+
+2023-05-31 20:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Home Page/a_Sign In' is clicked on
+
+2023-05-31 20:56:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checout/Page_Customer Login/input_Email_loginusername"), "amangunsong@gmail.com"): Text 'amangunsong@gmail.com' is set on object 'Object Repository/checout/Page_Customer Login/input_Email_loginusername'
+
+2023-05-31 20:56:54 - [MESSAGE][PASSED] - Text 'amangunsong@gmail.com' is set on object 'Object Repository/checout/Page_Customer Login/input_Email_loginusername'
+
+2023-05-31 20:56:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/checout/Page_Customer Login/input_Password_loginpassword"), "15nYBuI/zUaiDJSLaKisBw=="): Text ****** has been set on object 'Object Repository/checout/Page_Customer Login/input_Password_loginpassword'
+
+2023-05-31 20:56:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/checout/Page_Customer Login/input_Password_loginpassword'
+
+2023-05-31 20:56:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Customer Login/span_Sign In")): Object: 'Object Repository/checout/Page_Customer Login/span_Sign In' is clicked on
+
+2023-05-31 20:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Customer Login/span_Sign In' is clicked on
+
+2023-05-31 20:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Home Page/a_My Cart11items")): Object: 'Object Repository/checout/Page_Home Page/a_My Cart11items' is clicked on
+
+2023-05-31 20:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Home Page/a_My Cart11items' is clicked on
+
+2023-05-31 20:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Home Page/button_Proceed to Checkout")): Object: 'Object Repository/checout/Page_Home Page/button_Proceed to Checkout' is clicked on
+
+2023-05-31 20:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Home Page/button_Proceed to Checkout' is clicked on
+
+2023-05-31 20:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Checkout/div_andreas     mangunsong     jalan jalan _f8e74a")): Object: 'Object Repository/checout/Page_Checkout/div_andreas     mangunsong     jalan jalan _f8e74a' is clicked on
+
+2023-05-31 20:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Checkout/div_andreas     mangunsong     jalan jalan _f8e74a' is clicked on
+
+2023-05-31 20:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Checkout/span_Next")): Object: 'Object Repository/checout/Page_Checkout/span_Next' is clicked on
+
+2023-05-31 20:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Checkout/span_Next' is clicked on
+
+2023-05-31 20:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checout/Page_Checkout/span_Place Order")): Object: 'Object Repository/checout/Page_Checkout/span_Place Order' is clicked on
+
+2023-05-31 20:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/checout/Page_Checkout/span_Place Order' is clicked on
+
+2023-05-31 20:57:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-31 20:57:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-31 20:56:19 - [TEST_SUITE][PASSED] - testRun: Test Cases/checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
